@@ -1,27 +1,28 @@
-# Table
+# Table - Criado Através da Interface @angular/material
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+Este projeto é um componente Table. O componente foi criado através de linha de comando.  Para criar esse componente, tem que esta com a biblioteca de interface `@angular/material`. Dessa forma, toda a estrutura de código para que a tabela funcine é criado dentro deste componente.
 
-## Development server
+## Versões
+```json
+Angular CLI: 16.2.11
+Node: 18.16.0
+Package Manager: npm 9.5.1
+```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Criando projeto e instalando biblíoteca `@angular/material`
+    1 - ng new <nomeProjeto>
+    2 - ng add @angular/material
 
-## Code scaffolding
+## Criando componente
+    - ng g @angular/material:table tabela
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Você criando o componente dessa forma, já é incluso como default, a ordenação e também a paginação. Você podendo escolher a quantidade de itens que deseja mostrar na tela. O default é `[pageSizeOptions]="[5, 10, 20]"`, mas pode ser alterado. A quantidade de itens que será mostrado na página quando ela carrega o default é 10 `[pageSize]="10"`. Mas pode ser alterado com outro que esteja dentro do array `[pageSizeOptions]`
+    
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+No arquivo `app.component.html` onde aparece o conteúdo da projeto, apague todo o conteúdo da página, e em seguida importa o sidenav que foi criado `<app-tabela></app-tabela>`. Dessa forma, o conteúdo da tabela irá aparecer.
 
-## Running unit tests
+### screen
+<img src="src\assets\img\1.png" width="100%">
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<h1 align="center">💻 Desenvolvido Por: Gilberto Júnior</h1>
