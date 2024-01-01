@@ -20,7 +20,7 @@ Você criando o componente dessa forma, já é incluso como default, a ordenaç�
     
 
 
-No arquivo `app.component.html` onde aparece o conteúdo da projeto, apague todo o conteúdo da página, e em seguida importa o sidenav que foi criado `<app-tabela></app-tabela>`. Dessa forma, o conteúdo da tabela irá aparecer.
+No arquivo `app.component.html` onde aparece o conteúdo da projeto, apague todo o conteúdo da página, e em seguida importa o `tabela` que foi criado `<app-tabela></app-tabela>`. Dessa forma, o conteúdo da tabela irá aparecer.
 
 ### screen
 <img src="src\assets\img\1.png" width="100%">
