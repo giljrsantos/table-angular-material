@@ -16,7 +16,7 @@ Package Manager: npm 9.5.1
 ## Criando componente
     - ng g @angular/material:table tabela
 
-Você criando o componente dessa forma, já é incluso como default, a ordenação e também a paginação. Você podendo escolher a quantidade de itens que deseja mostrar na tela. O default é `[pageSizeOptions]="[5, 10, 20]"`, mas pode ser alterado. A quantidade de itens que será mostrado na página quando ela carrega o default é 10 `[pageSize]="10"`. Mas pode ser alterado com outro que esteja dentro do array `[pageSizeOptions]`
+Você criando o componente dessa forma, já é incluso como default, a ordenação e também a paginação. Você pode escolher a quantidade de itens que deseja mostrar na tela. O default é `[pageSizeOptions]="[5, 10, 20]"`, mas pode ser alterado. A quantidade de itens que será mostrado na página quando ela carrega o default é 10 `[pageSize]="10"`. Mas pode ser alterado com outro que esteja dentro do array `[pageSizeOptions]`
     
 
 
